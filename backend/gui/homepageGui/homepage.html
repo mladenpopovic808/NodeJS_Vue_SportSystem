@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="dropdown.css">
+    <script src="homepageGui/homepage.js"></script>
+  
+</head>
+
+<body onload="initLogout()">
+  <h1>
+      Pocetna strana
+  <h1>
+  <div >
+      <div class="navbar">
+      <div class="dropdown">
+          <button class="dropbtn">Korisnik info
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="userInfo">Informacije o vama</a>
+            <a href="userChangeInfo">Izmenite informacije</a>
+          
+          </div>
+        </div>
+      <div class="dropdown">
+        <button class="dropbtn"> Igraci
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <!--<a href="searchPlayer">Pretrazi igraca</a>>-->
+          <a href="searchPlayer">Pretrazi igraca</a>
+          <a href="addPlayer">Dodaj igraca (admin/mod)</a>
+          <a href="updatePlayer">Izmeni igraca (admin/mod)</a>
+          <a href="deletePlayer">Ukloni igraca (admin/mod)</a>
+        </div>
+      </div>
+      
+
+      <div class="dropdown">
+        <button class="dropbtn">Klubovi
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="searchClub">Pretrazi klub</a>
+          <a href="addClub">Dodaj klub(admin/mod)</a>
+          <a href="updateClub">Izmeni klub(admin/mod)</a>
+          <a href="deleteClub">Obrisi klub(admin/mod)</a>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+          <button class="dropbtn">Turniri
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="searchTournament">Pretrazi turnir</a>
+            <a href="addTournament">Dodaj turnir(admin/mod)</a>
+            <a href="updateTournament">Izmeni turnir(admin/mod)</a>
+            <a href="deleteTournament">Obrisi turnir(admin/mod)</a>
+          </div>
+        </div>
+      
+      <div class="dropdown">
+          <button class="dropbtn">Mecevi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="searchMatch">Pretrazi mec</a>
+            <a href="addMatch">Dodaj mec(admin/mod)</a>
+            <a href="updateMatch">Izmeni mec(admin/mod)</a>
+            <a href="deleteMatch">Obrisi mec(admin/mod)</a>
+          
+          </div>
+        </div>
+      
+      <div class="dropdown">
+          <button class="dropbtn">Rezultati
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="showResults">Prikazi rezultate</a>
+            <a href="addResult">Dodaj rezultat(admin/mod)</a>
+            <a href="updateResult">Izmeni rezultat(admin/mod)</a>
+            <a href="deleteResult">Obrisi rezultat(admin/mod)</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Destinacije
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="showDestination">Prikazi destinacije</a>
+            <a href="addDestination">Dodaj destinaciju(admin/mod)</a>
+            <a href="updateDestination">Izmeni destinaciju(admin/mod)</a>
+            <a href="deleteDestination">Obrisi destinaciju(admin/mod)</a>
+          </div>
+        </div>
+
+        
+        
+
+      <a href="rangList">Rang liste</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Pravna lica
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="searchStaff">Prikazi pravna lica</a>
+          <a href="addStaff">Dodaj pravno lice(admin/mod)</a>
+          <a href="updateStaff">Izmeni pravno lice(admin/mod)</a>
+          <a href="deleteStaff">Obrisi pravno lice(admin/mod)</a>
+        </div>
+
+
+      </div>
+      <a href="administrateUsers">Administracija korisnika (admin)</a>
+      <a href="aboutUs">O nama</a>
+      <a href="contact">Info (kontakt)</a>
+    </div>
+
+      <hr>
+  </div>
+
+
+      <button id="logoutHomepage">Logout</button>
+
+</body>
+</html>

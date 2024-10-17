@@ -1,0 +1,37 @@
+{
+  "name": "backend-nodejs-igor-mpopovic9720rn",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9579364&assignment_repo_type=AssignmentRepo)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mpopovic9720rn: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@github.com/Skript-2022-23/backend-nodejs-igor-mpopovic9720rn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skript-2022-23/backend-nodejs-igor-mpopovic9720rn/issues"
+  },
+  "homepage": "https://github.com/Skript-2022-23/backend-nodejs-igor-mpopovic9720rn#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "bcrypt": "^5.1.0",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.27.0",
+    "sequelize-cli": "^6.5.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "faker": "^6.6.6"
+  }
+}

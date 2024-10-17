@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>Registracija</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="registerGui/register.js"></script>
+    </head>
+    <body onload="init()">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form method="post" action="/NeTrebaOvdeRegister">
+                        <div class="mb-3">
+                            <label for="first_name" class="form-label">Ime</label>
+                            <input type="text" required class="form-control" id="firstNameRegistration" name="first_name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="last_name" class="form-label">Prezime</label>
+                            <input type="text" required class="form-control" id="lastNameRegistration" name="last_name">
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="country_of_residence" class="form-label">E-mail</label>
+                            <input type="text" required class="form-control" id="emailRegistration" name="email">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Korisničko ime</label>
+                            <input type="text" required  minlength="5" maxlength="20" class="form-control" id="usernameRegistration" name="username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Lozinka</label>
+                            <input type="password" required minlength="6" maxlength="20" class="form-control" id="passwordRegistration" name="password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="radio" class="form-check-input" id="adminRegistration" name="role1">
+                            <label class="form-check-label" for="admin">Admin</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="radio" class="form-check-input" id="moderatorRegistration" name="role2">
+                            <label class="form-check-label" for="moderator">Moderator</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="registracionoDugme">Registruj se</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
